@@ -34,13 +34,15 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
+  <!-- BODY PART -->
   <body>
     <section id="section-1" class="section">
       <div class="header_navbar">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">ASHIK</a>
+              <a class="navbar-brand" href="https://ashikcse045.github.io/">ASHIK</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -55,18 +57,26 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#about_me">ABOUT</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#skills">SKILLS</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">PORTFOLIO</a>
                   </li>
 
-                  <li class="nav-item dropdown">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">EXPERIENCE</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+
+                  <!-- <li class="nav-item dropdown">
                     <a
                       class="nav-link dropdown-toggle"
                       href="#"
@@ -83,7 +93,7 @@
                       <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -97,8 +107,8 @@
             <div class="row align-items-center justify-content-center">
               <div class="col-md-6 text-center">
                 <div class="img text-center">
-                  <a href="#"
-                    ><img class="rounded-circle" src="assets/imgs/anthony.jpg" alt="profile photo"
+                  <a href="https://ashikcse045.github.io/"
+                    ><img class="rounded-circle" src="assets/imgs/ashik.jpg" alt="profile photo"
                   /></a>
                 </div>
                 <div class="name mt-5">
@@ -109,7 +119,9 @@
                 </div>
                 <div class="btns">
                   <button type="button" class="btn btn-success px-5 me-2">Hire me</button>
-                  <button type="button" class="btn btn-success px-3">Download CV</button>
+                  <a href="assets/cv/cv_of_Ashik_Sarker.pdf" target="_blank"
+                    ><button type="button" class="btn btn-success px-3">Download CV</button></a
+                  >
                 </div>
               </div>
             </div>
@@ -134,7 +146,7 @@
                 </div>
               </div>
             </div>
-            <div class="row about_me_box mt-3">
+            <div id="about_me" class="row about_me_box mt-3">
               <div class="col-md-6 about_me">
                 <h2 class="mb-4">About me</h2>
                 <p>
@@ -185,7 +197,7 @@
     </section>
 
     <section id="section-2" class="section">
-      <div class="container skill_container mt-3 mt-3 pt-md-5 pt-3 mt-3 pt-md-5">
+      <div id="skills" class="container skill_container mt-3 mt-3 pt-md-5 pt-3 mt-3 pt-md-5">
         <h2 class="text-center">Professional Skills</h2>
         <div class="skill_box mt-4 mt-md-5 mb-4 mb-md-5">
           <div class="row">
@@ -223,5 +235,8 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+
+    <!-- CUSTOM JS -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
