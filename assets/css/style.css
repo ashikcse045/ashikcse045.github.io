@@ -28,6 +28,59 @@ h4{
     font-weight: 400;
 }
 
+.header_navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #378c3f;
+}
+
+
+.navbar{
+    padding-top: 25px 0px;
+    font-weight:600
+}
+
+.navbar-light .navbar-toggler{
+    border: 1px solid #fff;
+}
+
+.navbar-toggler i{
+    color: #fff;
+    padding: 2px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    transition: .4s;
+}
+.navbar-light .navbar-brand:hover{
+    color: rgb(226, 223, 223);
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.navbar-collapse{
+    justify-content: end;
+    color: #fff;
+}
+.navbar-collapse .nav-item .nav-link{
+    color: #fff;
+    transition: .4s;
+}
+.navbar-collapse .nav-item .nav-link:hover{
+    color: rgb(219, 217, 217);
+}
+
 .home .banner{
     width: 100%;
 }
@@ -278,14 +331,28 @@ h4{
     }
 } */
 
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 992px){
     .header_navbar{
         width: 100%;
-        position: absolute;
         top: 0;
         z-index: 99;
-        
-        /* background-color: rgba(255, 255, 255, 0.301); */
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .sticky{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        background-color: #378c3f;
     }
     .navbar{
         padding-top: 25px 0px;
