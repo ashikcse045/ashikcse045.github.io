@@ -202,8 +202,8 @@ h4{
 .progress_container{
     width: 100%;
     margin: 0 auto;
-    margin-top: 20px;
-    padding: 25px;
+    /* margin-top: 20px; */
+    padding: 0px 25px;
     text-align: left;
 }
 
@@ -309,6 +309,15 @@ h4{
     .home .about .social_links a i{
         line-height: 60px;
         font-size: 30px;
+    }
+
+
+    .progress_container{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 25px;
+        text-align: left;
     }
 
 
