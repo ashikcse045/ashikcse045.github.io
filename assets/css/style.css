@@ -243,6 +243,14 @@ h4{
     right: 15px;
 }
 
+.pill_nav{
+    text-align: center;
+}
+
+.pill_nav .nav-pills{
+    display: inline-flex;
+}
+
 
 
 @media only screen and (min-width: 992px){
