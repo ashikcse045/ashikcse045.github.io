@@ -1,353 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Ashik</title>
 
-    <!-- FONT AWESOME 6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <title>Ashik</title>
 
-    <!-- GOOGLE FONTS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap"
-      rel="stylesheet"
-    />
+  <!-- FONT AWESOME 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- BOOTSTRAP 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap"
+    rel="stylesheet" />
 
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+  <!-- BOOTSTRAP 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-  <!-- BODY PART -->
-  <body>
-    <section id="section-1" class="section">
-      <div class="header_navbar">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="https://ashikcse045.github.io/">ASHIK</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <i class="fa-solid fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#about_me">ABOUT</a>
-                  </li>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#skills">SKILLS</a>
-                  </li>
+<!-- BODY PART -->
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
-                  </li>
+<body>
+  <section id="section-1" class="section">
+    <div class="header_navbar">
+      <div class="container">
+        <div class="row nav_row">
+          <div class="col-md-4">
+            <div class="logo_btn">
+              <div class="logo">
+                <a href="https://ashikcse045.github.io/">
+                  <img src="assets/imgs/logo.png" alt="logo">
+                </a>
+              </div>
+              <div class="toggle_btn">
+                <i class="fa-solid fa-bars" id="toogleBtn"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8" id="nav_div">
+            <div class="nav">
+              <nav>
+                <ul>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">skills</a></li>
+                  <li><a href="#">portfolio</a></li>
+                  <li><a href="#">experience</a></li>
+                  <li><a href="#">contact</a></li>
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">EXPERIENCE</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                  </li>
-
-                  <!-- <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown link
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li> -->
                 </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-
-      <div class="home">
-        <div class="banner">
-          <div class="container text-white">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-md-6 text-center">
-                <div class="img text-center">
-                  <a href="https://ashikcse045.github.io/"
-                    ><img class="rounded-circle" src="assets/imgs/ashik.jpg" alt="profile photo"
-                  /></a>
-                </div>
-                <div class="name mt-5">
-                  <h1>ashik sarker</h1>
-                </div>
-                <div class="professon">
-                  <p>fullstack web developer</p>
-                </div>
-                <div class="btns">
-                  <button type="button" class="btn btn-success px-5 me-2">Hire me</button>
-                  <a href="assets/cv/cv_of_Ashik_Sarker.pdf" target="_blank"
-                    ><button type="button" class="btn btn-success px-3">Download CV</button></a
-                  >
-                </div>
-              </div>
+              </nav>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="about py-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="social_links text-center">
-                  <a href="https://www.facebook.com/ashik.cse.vu/" target="_blank">
-                    <i class="fa-2x fa-brands fa-facebook"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/ashik-sarker-b7b389237/" target="_blank">
-                    <i class="fa-2x fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="#" target="_blank"><i class="fa-2x fa-brands fa-instagram"> </i></a>
-                  <a href="https://github.com/ashikcse045" target="_blank">
-                    <i class="fa-2x fa-brands fa-github"></i>
-                  </a>
-                </div>
+    <div class="home">
+      <div class="banner">
+        <div class="container text-white">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 text-center">
+              <div class="img text-center">
+                <a href="https://ashikcse045.github.io/"><img class="rounded-circle" src="assets/imgs/ashik.jpg"
+                    alt="profile photo" /></a>
               </div>
-            </div>
-            <div id="about_me" class="row about_me_box mt-3">
-              <div class="col-md-6 about_me">
-                <h2 class="mb-4">About me</h2>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dolores accusantium
-                  corrupti optio adipisci cumque.
-                </p>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius autem vitae nobis
-                  natus commodi, voluptas officia cum enim quisquam perspiciatis maiores velit
-                  exercitationem ab esse culpa alias ipsam nemo, facere hic itaque nulla sint!
-                  Debitis magni numquam magnam odio ullam iste inventore cum at. Excepturi molestias
-                  repellat sequi nulla dolores.
-                </p>
+              <div class="name mt-5">
+                <h1>ashik sarker</h1>
               </div>
-              <div class="col-md-6 basic_info">
-                <h2 class="mb-4">Basic Information</h2>
-                <table>
-                  <tr>
-                    <th>AGE:</th>
-                    <td>23</td>
-                  </tr>
-                  <tr>
-                    <th>EMAIL:</th>
-                    <td>
-                      <a href="mailto:ashikcse321@gmail.com" title="send email"
-                        >ashikcse321@gmail.com</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>PHONE:</th>
-                    <td><a href="tel:+8801521505230" title="click to call">+880 1521-505230</a></td>
-                  </tr>
-                  <tr>
-                    <th>ADDRESS:</th>
-                    <td>Rajshahi, Bangladesh</td>
-                  </tr>
-                  <tr>
-                    <th>LANGUAGE:</th>
-                    <td>Bangla, English</td>
-                  </tr>
-                </table>
+              <div class="professon">
+                <p>fullstack web developer</p>
+              </div>
+              <div class="btns">
+                <button type="button" class="btn btn-success px-5 me-2">Hire me</button>
+                <a href="assets/cv/cv_of_Ashik_Sarker.pdf" target="_blank"><button type="button"
+                    class="btn btn-success px-3">Download CV</button></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="section-2" class="section">
-      <div id="skills" class="container skill_container mt-3 mt-3 pt-md-5 pt-3 mt-3 pt-md-5">
-        <h2 class="text-center">Professional Skills</h2>
-        <div class="skill_box mt-4 mt-md-5 mb-4 mb-md-5">
-          <div class="progress_container py-3">
-            <div class="row">
-              <div class="col-md-6">
-                <!-- HTML -->
-                <div class="progres">
-                  <p>html</p>
-                  <div class="progress_bar">
-                    <span class="parcent">90%</span>
-                    <span class="indicator" data-progress="90"></span>
-                  </div>
-                </div>
+      <div class="about py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="social_links text-center">
+                <a href="https://www.facebook.com/ashik.cse.vu/" target="_blank">
+                  <i class="fa-2x fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ashik-sarker-b7b389237/" target="_blank">
+                  <i class="fa-2x fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" target="_blank"><i class="fa-2x fa-brands fa-instagram"> </i></a>
+                <a href="https://github.com/ashikcse045" target="_blank">
+                  <i class="fa-2x fa-brands fa-github"></i>
+                </a>
               </div>
-              <div class="col-md-6">
-                <!-- CSS -->
-                <div class="progres">
-                  <p>css</p>
-                  <div class="progress_bar">
-                    <span class="parcent">80%</span>
-                    <span class="indicator" data-progress="80"></span>
-                  </div>
+            </div>
+          </div>
+          <div id="about_me" class="row about_me_box mt-3">
+            <div class="col-md-6 about_me">
+              <h2 class="mb-4">About me</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dolores accusantium
+                corrupti optio adipisci cumque.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius autem vitae nobis
+                natus commodi, voluptas officia cum enim quisquam perspiciatis maiores velit
+                exercitationem ab esse culpa alias ipsam nemo, facere hic itaque nulla sint!
+                Debitis magni numquam magnam odio ullam iste inventore cum at. Excepturi molestias
+                repellat sequi nulla dolores.
+              </p>
+            </div>
+            <div class="col-md-6 basic_info">
+              <h2 class="mb-4">Basic Information</h2>
+              <table>
+                <tr>
+                  <th>AGE:</th>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <th>EMAIL:</th>
+                  <td>
+                    <a href="mailto:ashikcse321@gmail.com" title="send email">ashikcse321@gmail.com</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>PHONE:</th>
+                  <td><a href="tel:+8801521505230" title="click to call">+880 1521-505230</a></td>
+                </tr>
+                <tr>
+                  <th>ADDRESS:</th>
+                  <td>Rajshahi, Bangladesh</td>
+                </tr>
+                <tr>
+                  <th>LANGUAGE:</th>
+                  <td>Bangla, English</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-2" class="section">
+    <div id="skills" class="container skill_container mt-3 mt-3 pt-md-5 pt-3 mt-3 pt-md-5">
+      <h2 class="text-center">Professional Skills</h2>
+      <div class="skill_box mt-4 mt-md-5 mb-4 mb-md-5">
+        <div class="progress_container py-3">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- HTML -->
+              <div class="progres">
+                <p>html</p>
+                <div class="progress_bar">
+                  <span class="parcent">90%</span>
+                  <span class="indicator" data-progress="90"></span>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <!-- JAVASCRIPT -->
-                <div class="progres">
-                  <p>javascript</p>
-                  <div class="progress_bar">
-                    <span class="parcent">60%</span>
-                    <span class="indicator" data-progress="60"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <!-- BOOTSTRAP -->
-                <div class="progres">
-                  <p>bootstrap</p>
-                  <div class="progress_bar">
-                    <span class="parcent">70%</span>
-                    <span class="indicator" data-progress="70"></span>
-                  </div>
+            <div class="col-md-6">
+              <!-- CSS -->
+              <div class="progres">
+                <p>css</p>
+                <div class="progress_bar">
+                  <span class="parcent">80%</span>
+                  <span class="indicator" data-progress="80"></span>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <!-- PHP -->
-                <div class="progres">
-                  <p>php</p>
-                  <div class="progress_bar">
-                    <span class="parcent">70%</span>
-                    <span class="indicator" data-progress="70"></span>
-                  </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- JAVASCRIPT -->
+              <div class="progres">
+                <p>javascript</p>
+                <div class="progress_bar">
+                  <span class="parcent">60%</span>
+                  <span class="indicator" data-progress="60"></span>
                 </div>
               </div>
-              <div class="col-md-6">
-                <!-- GIT -->
-                <div class="progres">
-                  <p>git</p>
-                  <div class="progress_bar">
-                    <span class="parcent">80%</span>
-                    <span class="indicator" data-progress="80"></span>
-                  </div>
+            </div>
+            <div class="col-md-6">
+              <!-- BOOTSTRAP -->
+              <div class="progres">
+                <p>bootstrap</p>
+                <div class="progress_bar">
+                  <span class="parcent">70%</span>
+                  <span class="indicator" data-progress="70"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- PHP -->
+              <div class="progres">
+                <p>php</p>
+                <div class="progress_bar">
+                  <span class="parcent">70%</span>
+                  <span class="indicator" data-progress="70"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- GIT -->
+              <div class="progres">
+                <p>git</p>
+                <div class="progress_bar">
+                  <span class="parcent">80%</span>
+                  <span class="indicator" data-progress="80"></span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- PORTFOLIO SECTION -->
-    <section id="portfolio">
-      <div class="container pt-3 pt-md-5">
-        <div class="row justify-content-center align-items-center mb-3 mb-md-5">
-          <div class="col-md-6 text-center">
-            <h2>Portfolio</h2>
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio">
+    <div class="container pt-3 pt-md-5">
+      <div class="row justify-content-center align-items-center mb-3 mb-md-5">
+        <div class="col-md-6 text-center">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <a href="#">
+              <div class="img_div mb-3">
+                <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
+              </div>
+
+              <div class="overlay">
+                <h3>html and css</h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <div class="img_div mb-3">
+                <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
+              </div>
+
+              <div class="overlay">
+                <h3>html and css</h3>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="box">
-              <a href="#">
-                <div class="img_div mb-3">
-                  <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
-                </div>
+        <div class="col-md-6">
+          <div class="box">
+            <a href="#">
+              <div class="img_div mb-3">
+                <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
+              </div>
 
-                <div class="overlay">
-                  <h3>html and css</h3>
-                </div>
-              </a>
-            </div>
-
-            <div class="box">
-              <a href="#">
-                <div class="img_div mb-3">
-                  <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
-                </div>
-
-                <div class="overlay">
-                  <h3>html and css</h3>
-                </div>
-              </a>
-            </div>
+              <div class="overlay">
+                <h3>html and css</h3>
+              </div>
+            </a>
           </div>
-          <div class="col-md-6">
-            <div class="box">
-              <a href="#">
-                <div class="img_div mb-3">
-                  <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
-                </div>
+          <div class="box">
+            <a href="#">
+              <div class="img_div mb-3">
+                <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
+              </div>
 
-                <div class="overlay">
-                  <h3>html and css</h3>
-                </div>
-              </a>
-            </div>
-            <div class="box">
-              <a href="#">
-                <div class="img_div mb-3">
-                  <img src="assets/projects/pexels-tranmautritam-285814.jpg" alt="project image" />
-                </div>
-
-                <div class="overlay">
-                  <h3>html and css</h3>
-                </div>
-              </a>
-            </div>
+              <div class="overlay">
+                <h3>html and css</h3>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- BOOTSTRAP JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
 
-    <!-- CUSTOM JS -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- CUSTOM JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+
 </html>
