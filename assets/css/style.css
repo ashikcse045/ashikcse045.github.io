@@ -1,5 +1,5 @@
 /* font-family: 'Roboto', sans-serif; */
-
+/* primary-color: #e58e0e */
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ h4 {
 
 .header_navbar {
   width: 100%;
-  background-color: #378c3f;
+  background-color: #e58e0e;
   position: fixed;
   z-index: 99;
 }
@@ -47,6 +47,14 @@ h4 {
   padding: 0px 10px;
 }
 
+.btn-primary {
+  background-color: #e58e0e;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #e89b27;
+}
+
 .header_navbar .container .nav_row .logo_btn .logo {
   overflow: hidden;
   /* padding: 2px 5px; */
@@ -56,7 +64,7 @@ h4 {
 }
 
 .header_navbar .container .nav_row .logo_btn .logo:hover {
-  background-color: #3fa049;
+  background-color: #e89b27;
 }
 
 .header_navbar .container .nav_row .logo_btn .logo a {
@@ -129,7 +137,7 @@ h4 {
 .home .img img {
   width: 160px;
   /* margin: 0 auto; */
-  border: 2px solid #fff;
+  border: 2px solid #e58e0e;
   transition: 0.4s;
 }
 
@@ -218,7 +226,7 @@ td {
 }
 
 .home .about .about_me_box .basic_info table td a {
-  color: rgb(228, 45, 13);
+  color: #e58e0e;
   text-decoration: none;
 }
 
@@ -257,7 +265,7 @@ td {
 .progress_container .progres .progress_bar {
   width: 100%;
   height: 10px;
-  background-color: #378c4059;
+  background-color: #e58f0e2d;
   border-radius: 10px;
   position: relative;
 }
@@ -266,7 +274,7 @@ td {
   display: block;
   width: 0%;
   height: 10px;
-  background-color: #378c3f;
+  background-color: #e58e0e;
   font-size: 10px;
   text-align: right;
   color: #fff;
@@ -297,7 +305,7 @@ td {
 }
 #portfolio .button_container button:hover {
   color: rgb(240, 239, 239);
-  background-color: #25d366;
+  background-color: #e58e0e;
 }
 
 /* #portfolio .button_container button:last-child {
@@ -306,7 +314,7 @@ td {
 
 #portfolio .button_container button.active_button {
   color: rgb(240, 239, 239);
-  background-color: #25d366;
+  background-color: #e58e0e;
 }
 
 #portfolio .box {
@@ -425,15 +433,15 @@ td {
     position: fixed;
     top: 0;
     z-index: 99;
-    background-color: #378c3f;
+    background-color: #e58e0e;
   }
 
   .sticky .container .nav_row .logo_btn .logo:hover {
-    background-color: #3fa049;
+    background-color: #e89b27;
   }
 
   .sticky .container .nav_row .nav ul li a:hover {
-    background-color: #3fa049;
+    background-color: #e89b27;
     color: rgb(255, 255, 255);
   }
 
